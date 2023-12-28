@@ -1,6 +1,4 @@
-﻿using EmployeeManagement.DataAccess.Common.Entities;
-using EmployeeManagement.DataAccess.Common.Models;
-
+﻿
 namespace EmployeeManagement.DataAccess.Common.Interfaces
 {
     public interface IEmployeeDataAccessor

@@ -10,6 +10,11 @@ namespace EmployeeManagement.DataAccess
         private static readonly string DB_NAME = "postgres";
         private string schemaName = "public";
 
+        public DbSet<AttendanceEntity> Attendance { get; set; }
+
+        public DbSet<RegularizationEntity> Regularization { get; set; }
+
+        public DbSet<LeaveEntity> Leave { get; set; }
 
         public DbSet<EmployeeEntity> Employees{ get; set; }
 
