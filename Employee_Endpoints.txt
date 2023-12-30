@@ -1,0 +1,55 @@
+Get -[
+  {
+    "employeeID": 0,
+    "firstname": "string",
+    "lastname": "string",
+    "fullname": "string",
+    "gender": "string",
+    "role": "string",
+    "designation": "string",
+    "email": "string"
+  }
+]
+
+GetById - id *
+
+Post -{
+  "employeeID": 0,
+  "firstname": "string",
+  "lastname": "string",
+  "fullname": "string",
+  "gender": "string",
+  "role": "string",
+  "designation": "string",
+  "email": "string"
+}
+
+PUT-
+{
+  "employeeID": 0,
+  "firstname": "string",
+  "lastname": "string",
+  "fullname": "string",
+  "gender": "string",
+  "role": "string",
+  "designation": "string",
+  "email": "string"
+}
+
+Delete -{
+  "employeeId": 0
+}
+
+Post /password/{employeeID}-
+employeeID
+username 
+password
+
+PUT-/reset/id
+Id* , Username, OldPassword, NewPassword
+
+Post - /profile/{empId}
+empId 
+
+Delete-/profile/{id}
+id* 
